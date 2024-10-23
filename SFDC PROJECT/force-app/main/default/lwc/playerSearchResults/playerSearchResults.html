@@ -1,0 +1,37 @@
+<template>
+
+    <lightning-card  title="Player Search Results">
+
+        <lightning-layout multiple-rows="true">
+            
+            <template if:true={cricketersData}>
+                <template for:each={cricketersData} for:item="player">
+
+                    <lightning-layout-item size="12" small-device-size="6" medium-device-size="4" large-device-size="3" key={player.Id} 
+                        class="slds-align_absolute-center">
+                        
+                        <!--card starting here-->
+                        <div class="title_wrapper" onclick={handleClickPlayerCard} data-id={player.Id}>
+                            <!--image section-->
+                            <div class="tile">
+                                <img src={player.Image_URL__c} />
+                            </div>
+                            <div class="player_data">
+                                <h1 class="slds-text-heading_medium">{player.Name}</h1>
+                                <p>Runs : {player.Runs__c}</p>
+                                <p>Age : {player.Age__c}</p>
+                            </div>
+
+                        </div>
+
+                    </lightning-layout-item>
+                </template>
+            </template>
+
+            
+
+        </lightning-layout>
+
+    </lightning-card>
+    
+</template>
