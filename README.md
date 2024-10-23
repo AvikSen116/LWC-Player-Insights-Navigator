@@ -16,10 +16,11 @@ The LWC Player Insights & Navigator project is focused on creating an intuitive 
 ## Business Goals:
 The project aims to simplify player profile navigation and streamline player information access. It is intended to enhance the overall scouting and analysis process by providing easy filtering options, dynamic player insights, and responsive design for a smoother user experience.
 ## Specific Outcomes:
-   >=> Interactive player cards with filtering functionality.
-   => Dynamic display of player details upon selection.
-   >=> Seamless integration with Salesforce data using custom objects and picklist values.
-   => Responsive UI for optimal experience across devices.
+   * Interactive player cards with filtering functionality.
+* Dynamic display of player details upon selection.
+* Seamless integration with Salesforce data using custom objects and picklist values.
+*  Responsive UI for optimal experience across devices.
+
 
 # 3. Salesforce Key Features and Concepts Utilized
 * Lightning Web Components (LWC): Used to build a dynamic and interactive UI that displays player information and filters data based on user selection.
