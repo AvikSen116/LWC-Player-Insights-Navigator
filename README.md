@@ -79,6 +79,8 @@ The project followed a comprehensive testing approach to ensure smooth functiona
 ## Summary of Achievements:
 The LWC Player Insights & Navigator successfully addresses the challenge of navigating player profiles in the sports industry by delivering a user-friendly, responsive, and dynamic solution. The project improves operational efficiency by simplifying data filtering and providing rich, detailed player insights. By leveraging Salesforce’s LWC, LMS, and Apex, the project sets the foundation for future scalability and customization in player data management systems.
 
+## 📧 Contact
+Feel free to connect with me via [LinkedIn](https://www.linkedin.com/in/avik-sen-043379273/) or check out my projects on [GitHub](https://github.com/AvikSen116).
 
        
         Thank You.
